@@ -7,36 +7,35 @@
 ## 知识地图
 
 ### 一、scRNA-seq 分析 (`01-rnaseq/`)
-- **预处理**：质控指标、双细胞去除、归一化、批次校正
-- **降维与聚类**：PCA/Harmony/ScVI、Leiden/Graph-based、分辨率选择
-- **细胞注释**：Marker genes、参考图谱映射、自动注释工具
-- **拟时序与 RNA Velocity**：Monocle3/Slingshot/Palantir、scVelo/CellRank
-- **多数据集整合**：Harmony/Seurat v5/LIGER/ScVI
-- **差异表达分析**：FindMarkers、Pseudobulk+DESeq2、MAST、Wilcoxon 等 10 种检验方法
+- [**预处理**](01-rnaseq/preprocessing.md)：质控指标、双细胞去除、归一化、批次校正
+- [**降维与聚类**](01-rnaseq/clustering.md)：PCA/Harmony/ScVI、Leiden/Graph-based、分辨率选择、细胞注释
+- [**拟时序与 RNA Velocity**](01-rnaseq/trajectory.md)：Monocle3/Slingshot/Palantir、scVelo/CellRank
+- [**多数据集整合**](01-rnaseq/integration.md)：Harmony/Seurat v5/LIGER/ScVI
+- [**差异表达分析**](01-rnaseq/differential-expression.md)：FindMarkers、Pseudobulk+DESeq2、MAST、Wilcoxon 等 10 种检验方法
 
 ### 二、scATAC-seq 分析 (`02-atac/`)
-- **Peak Calling**：MACS2/Genrich、细胞级 peak 矩阵构建
-- **Motif 分析**：chromVAR/TFBS 预测、调控网络推断
-- **与 RNA 整合**：Signac/ArchR/MAESTRO、基因活性评分
+- [**Peak Calling**](02-atac/peak-calling.md)：MACS2/Genrich、细胞级 peak 矩阵构建
+- [**Motif 分析**](02-atac/motif-analysis.md)：chromVAR/TFBS 预测、调控网络推断
+- [**与 RNA 整合**](02-atac/integration-with-rna.md)：Signac/ArchR/MAESTRO、基因活性评分
 
 ### 三、Multiome (RNA + ATAC) 联合分析 (`03-multiome/`)
-- **联合分析流程**：WNN/Weighted Nearest Neighbors、多模态降维
-- **工具对比**：Signac、ArchR、MAESTRO、SnapATAC2、Cobolt
+- [**分析流程**](03-multiome/workflows.md)：WNN/Weighted Nearest Neighbors、多模态降维
+- [**常用工具**](03-multiome/tools.md)：Signac、ArchR、MAESTRO、SnapATAC2、Cobolt
 
 ### 四、CRISPR Perturbation Screens (`04-crispr/`)
-- **文库设计**：sgRNA 设计原则、文库复杂度、对照设置
-- **MAGeCK 分析**：MAGeCK-VISPR、MAGeCK-Flute、必需基因鉴定
-- **Perturb-seq**：CROP-seq/ENCODE、单细胞表型读出、因果推断
+- [**Pool-seq 设计**](04-crispr/pool-seq.md)：sgRNA 设计原则、文库复杂度、对照设置
+- [**MAGeCK 分析**](04-crispr/mageck-analysis.md)：MAGeCK-VISPR、MAGeCK-Flute、必需基因鉴定
+- [**Perturb-seq**](04-crispr/perturbseq.md)：CROP-seq/ENCODE、单细胞表型读出、因果推断
 
 ### 五、VDJ (TCR/BCR) 受体库分析 (`05-vdj/`)
-- **VDJ Tools**：VDJtools/ImmuneDB/Change-O、克隆型定义
-- **克隆型分析**：克隆扩增、V/J 基因使用、SHM 分析、抗原特异性推断
+- [**VDJ Tools**](05-vdj/vdj-tools.md)：VDJtools/ImmuneDB/Change-O、克隆型定义
+- [**Clonotype 分析**](05-vdj/clonotype-analysis.md)：克隆扩增、V/J 基因使用、SHM 分析、抗原特异性推断
 
 ### 六、通用工具横评 (`06-tools/`)
-- **Seurat (R)**：v5 新特性、WNN、空间转录组支持
-- **Scanpy (Python)**：AnnData 生态、scVI 集成、大规模数据
-- **Loupe Browser**：可视化交互、无代码探索
-- **云平台**：Terra、DNAnexus、Seven Bridges、Partek Flow
+- [**Seurat (R)**](06-tools/seurat.md)：v5 新特性、WNN、空间转录组支持
+- [**Scanpy (Python)**](06-tools/scanpy.md)：AnnData 生态、scVI 集成、大规模数据
+- [**Loupe Browser**](06-tools/loupe.md)：可视化交互、无代码探索
+- [**云平台**](06-tools/cloud-platforms.md)：Terra、DNAnexus、Seven Bridges、Partek Flow
 
 ### 七、重要论文与综述 (`07-papers/`)
 - **综述合集**：技术综述、方法比较、最佳实践
