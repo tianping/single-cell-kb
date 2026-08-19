@@ -12,6 +12,7 @@
 - **细胞注释**：Marker genes、参考图谱映射、自动注释工具
 - **拟时序与 RNA Velocity**：Monocle3/Slingshot/Palantir、scVelo/CellRank
 - **多数据集整合**：Harmony/Seurat v5/LIGER/ScVI
+- **差异表达分析**：FindMarkers、Pseudobulk+DESeq2、MAST、Wilcoxon 等 10 种检验方法
 
 ### 二、scATAC-seq 分析 (`02-atac/`)
 - **Peak Calling**：MACS2/Genrich、细胞级 peak 矩阵构建
