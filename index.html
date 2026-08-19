@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>单细胞分析知识库</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="单细胞多组学分析方法、工具与研究报告收集整理">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <style>
+    .sidebar-nav { padding-left: 10px; }
+    .markdown-section { max-width: 900px; }
+    body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: '单细胞分析知识库',
+      repo: '',
+      loadSidebar: true,
+      maxLevel: 3,
+      subMaxLevel: 3,
+      search: {
+        placeholder: '搜索...',
+        noData: '没有找到结果',
+        depth: 3
+      },
+      auto2top: true,
+      homepage: 'README.md'
+    };
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/emoji.min.js"></script>
+</body>
+</html>
