@@ -26,6 +26,7 @@
 * [重要论文与综述](07-papers/)
   * [综述合集](07-papers/reviews.md)
   * [新方法论文](07-papers/methods.md)
+  * [Virtual Biotech：Science 多智能体药物研发框架 8G 显卡复现 + GHIST 病理组学番外](07-papers/2026-09-29-virtual-biotech-multagent-science-drug-discovery-repro.md)
 * [资源与教程](08-resources/)
   * [公开数据集](08-resources/datasets.md)
   * [教程合集](08-resources/tutorials.md)

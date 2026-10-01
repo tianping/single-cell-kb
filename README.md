@@ -71,7 +71,7 @@
 | 06-tools | [Scanpy](06-tools/scanpy.md) | 2026-08-19 | tools, python, scanpy, single-cell |
 | 06-tools | [Loupe Browser](06-tools/loupe.md) | 2026-08-19 | tools, visualization, loupe, 10x |
 | 06-tools | [云平台](06-tools/cloud-platforms.md) | 2026-08-19 | tools, cloud, terra, dnanexus, sevenbridges |
-| 07-papers | *(暂无)* | — | — |
+| 07-papers | [Virtual Biotech：Science 多智能体药物研发框架 8G 显卡复现 + GHIST 病理组学番外](07-papers/2026-09-29-virtual-biotech-multagent-science-drug-discovery-repro.md) | 2026-09-29 | multiagent, drug-discovery, science, virtual-biotech, ghist, spatial-transcriptomics, tau |
 | 08-resources | *(暂无)* | — | — |
 
 > 新增笔记时，请同步更新此表。
