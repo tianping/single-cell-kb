@@ -12,6 +12,7 @@
   * [分析流程](03-multiome/workflows.md)
   * [常用工具](03-multiome/tools.md)
 * [CRISPR Perturbation Screens](04-crispr/)
+  * [体内 CAR-T 双基因敲除筛选绘制协同抗肿瘤基因对（Nature 2026）](04-crispr/2026-11-04-in-vivo-car-t-double-knockout-screen.md) — 耶鲁陈斯迪团队：近5万组合、约4万 DKO 的体内 CRISPR 筛选，NR4A1+SOCS3 双敲诱导单敲不明显的代谢增强，跨 CAR 结构与实体瘤/血液瘤模型验证
   * [Pool-seq 设计](04-crispr/pool-seq.md)
   * [MAGeCK 分析](04-crispr/mageck-analysis.md)
   * [Perturb-seq](04-crispr/perturbseq.md)
